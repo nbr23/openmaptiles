@@ -233,7 +233,7 @@ export HELP_MESSAGE
 #
 
 .PHONY: all
-all: init-dirs build/openmaptiles.tm2source/data.yml build/mapping.yaml build-sql build-style
+all: init-dirs build/openmaptiles.tm2source/data.yml build/mapping.yaml build-sql # build-style
 
 .PHONY: help
 help:
